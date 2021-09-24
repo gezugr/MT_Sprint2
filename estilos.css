@@ -1,0 +1,80 @@
+html {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+body {
+  background: #f1f1f1;
+  height: 100vh;
+  margin: 0 0;
+  width: 100vw;
+}
+
+#nav_bar {
+  background: #23120b;
+  width: 100vw;
+  height: 100px;
+  top: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  z-index: 4;
+}
+
+a,
+ul,
+li,
+h1,
+h2,
+h3,
+p,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+#nav_bar a {
+  padding: 35px 80px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #f1f1f1;
+  letter-spacing: 1px;
+}
+
+#Registerbutton {
+  width: 50px;
+  height: 30px;
+  font-size: 10px;
+}
+
+#formRegistro {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 100px;
+}
+
+#formRegistro input{
+ border: 1px solid green;
+}
+
+#nav_bar a:hover {
+  background: blue;
+}
+
+#Registerbutton:active {
+  background: blue;
+}
